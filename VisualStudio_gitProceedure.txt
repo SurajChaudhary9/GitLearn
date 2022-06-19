@@ -1,0 +1,39 @@
+*Create GitHub repo online for your project; Include README file and .gitignore file*
+*Go to folder of your project(the folder where you have your .sln file of your project) on your local system and git bash there*
+
+1. git init
+
+2. git branch -m master main          (Do this if your default branch name for online repo is `main`)
+
+3. git remote add origin *Copy-paste git clone link here*
+
+4. git pull origin main
+
+5. git add .
+
+6. git commit -m "*commit message*"
+
+7. git push -u origin main			(-u only for the first time push)
+
+8. git checkout -b UC1			(UC1 or your preferred name for usecase 1)(-b only when creating branch, do not use if branch_name exists)
+
+*Edit and update your code for use case 1 on Visual Studio*
+*Run and save your changes on VS*
+
+9. git add .
+
+10. git commit -m "commit message"    (Give proper, meaningful, understandable commit messages. Do not leave it empty)
+
+11. git checkout main
+
+12. git merge UC1           (UC1 or the name you gave for usecase 1 branch)
+
+13. git push --all
+
+14. NOW REPEAT STEPS 8-13 FOR THE REMAINING USECASES
+....				              ....
+....	Do for all usecases	....
+....				              ....
+
+
+That's it! your assignment is succesfully uploaded to GitHub with all the Use case branches!
